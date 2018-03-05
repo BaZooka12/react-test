@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+.head {
+  height: 350px;
+  width: 100%;
+  color: #fff;
+  background: url(./headerBackground.jpg) no-repeat center;
+  background-size: cover;
+}
+h1 {
+  margin: 0;
+  padding-top: 7%;
+  text-align: center;
+  font-size: 4em;
+}
+nav {
+  background: rgba(0, 0, 0, 0.5);
+}
+ul {
+  display: flex;
+  width: 350px;
+  justify-content: space-around; 
+  text-transform: capitalize;
+}
+li{
+  font-size: 1.5em;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+li a:hover {
+  opacity: 0.5;
+}
+.active {
+  color:red;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 1em;
+  width: 960px;
+}
+.profile {
+  border: 2px solid crimson;
+  padding: 1em;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+}
+
+.post {
+  height: 100%;
+  display: flex;
+  border: 1px solid #ccc;
+  color: #fff;
+  padding: 1em;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.post:hover {
+  box-shadow: 0px 0px 15px 8px crimson;
+}
+
+.post-container p {
+  height: 37px;
+  overflow: hidden;
+}
+
+.post-title {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.post-info {
+  display: flex;
+
+}
+
+.post-author {
+  margin-right: 1em;
+}
+
+.post-container {
+  flex-grow: 2;
+}
+
+.post-img {
+  width: 128px;
+  height: 128px;
+  vertical-align: middle;
+}
+
+.post-link {
+  color: white;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 10px;
+  border:2px solid #911D1D;
+  padding: 7px;
+  border-radius: 30px;
+}
+
+.post-link:hover {
+  background: #6754F2;
+}
